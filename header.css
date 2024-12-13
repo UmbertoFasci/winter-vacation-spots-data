@@ -1,0 +1,9 @@
+.header__title {
+  display: flex;
+  justify-content: center;
+}
+
+.header__text {
+  display: flex;
+  justify-content: space-around;
+}
