@@ -2,44 +2,52 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta
-      name="author"
-      content="Azionne, Jmik, Clarke,Ayya, Umberto"
-    />
+    <meta name="author" content="Azionne, Jmik, Clarke,Ayya, Umberto" />
     <meta name="keywords" content="New York city ski resort" />
     <meta
       name="description"
       content="Winter vacaiton for families in NY city, ski resort"
     />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" href="favicon.ico"/>
-    <link rel="stylesheet" href="src/pages/index.css" />
+    <link rel="icon" href="favicon.ico" />
+    <link
+      rel="stylesheet"
+      href="../winter-vacation-spots/src/pages/index.css"
+    />
     <title>Dec-Code-jam-2024</title>
   </head>
   <body>
     <div class="page">
-      <header class="header">
+      <section class="winter page__section">
+        <header class="header">
+          <video controls loop width="1280" height="800" autoplay muted>
+            <source
+              src="../winter-vacation-spots/src/video/7418-200092486_medium.mp4"
+              type="video/mp4"
+            />
+          </video>
+        </header>
         <nav class="nav">
           <img src="" alt="" class="nav-img" />
-          <ul class="navbar">
+          <ul class="nav__links">
             <li>
-              <a class="nav-item" href="#destinations">Desitinations</a>
+              <a class="nav__link" href="#destinations">Desitinations</a>
             </li>
             <li>
-              <a class="nav-item" href="#routes">Route</a>
+              <a class="nav__link" href="#routes">Route</a>
             </li>
             <li>
-              <a class="navitem" href="#weather">Weather</a>
+              <a class="nav__link" href="#weather">Weather</a>
             </li>
             <li>
-              <a class="nav-item" href="#data">Data</a>
+              <a class="nav__link" href="#data">Data</a>
             </li>
           </ul>
         </nav>
         <h1 class="header__title">Slope Scout</h1>
         <p class="header__text">Your map to mountain bliss!</p>
         <img src="" alt="" class="header__img" />
-      </header>
+      </section>
 
       <main class="content">
         <section class="destinations" id="destinations">
@@ -101,14 +109,13 @@
           </ul>
         </section>
         <template id="card__template">
-            <li class="card">
-                  <img src="" alt="" class="card__image">
-                  <h2 class="card__title"></h2>
-                  <p class="card__description"></p>
-            </li>
-
+          <li class="card">
+            <img src="" alt="" class="card__image" />
+            <h2 class="card__title"></h2>
+            <p class="card__description"></p>
+          </li>
         </template>
-        <section class="routes" id="routes">
+        <!----<section class="routes" id="routes">
           <div class="routes__content">
             <h2 class="routes__title">The road to: Your <span class="routes__title-bold">ultimate</span> powder paradise</h2>
             <div class="routes-info">
@@ -120,7 +127,7 @@
               planning, you can make the most of your winter adventure.
             </p>
           </div>
-        </section>
+        </section> -->
 
         <section class="weather" id="weather">
           <h2 class="weather__title">Real-time weather report</h2>
@@ -148,9 +155,7 @@
       </main>
 
       <footer class="footer" id="">
-        <p>
-          &copy; 2024 Ayya, Z, Umberto, Jmik, Clarke
-        </p>
+        <p>&copy; 2024 Ayya, Z, Umberto, Jmik, Clarke</p>
       </footer>
     </div>
     <script src="./src/scripts/script.js"></script>
