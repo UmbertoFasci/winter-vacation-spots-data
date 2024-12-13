@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta
       name="author"
-      content="Azionne, Jmik, Clarke Brodnicki,Ayya, Umberto Fasci"
+      content="Azionne, Jmik, Clarke,Ayya, Umberto"
     />
     <meta name="keywords" content="New York city ski resort" />
     <meta
@@ -12,12 +12,147 @@
       content="Winter vacaiton for families in NY city, ski resort"
     />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="favicon.ico"/>
     <link rel="stylesheet" href="src/pages/index.css" />
     <title>Dec-Code-jam-2024</title>
   </head>
   <body>
-    <h1>December Code Jam</h1>
+    <div class="page">
+      <header class="header">
+        <nav class="nav">
+          <img src="" alt="" class="nav-img" />
+          <ul class="navbar">
+            <li>
+              <a class="nav-item" href="#destinations">Desitinations</a>
+            </li>
+            <li>
+              <a class="nav-item" href="#routes">Route</a>
+            </li>
+            <li>
+              <a class="navitem" href="#weather">Weather</a>
+            </li>
+            <li>
+              <a class="nav-item" href="#data">Data</a>
+            </li>
+          </ul>
+        </nav>
+        <h1 class="header__title">Slope Scout</h1>
+        <p class="header__text">Your map to mountain bliss!</p>
+        <img src="" alt="" class="header__img" />
+      </header>
 
-    <script src="script.js"></script>
+      <main class="content">
+        <section class="destinations" id="destinations">
+          <h2 class="destinations__title">Top resorts</h2>
+          <ul class="destinations__cards">
+            <!-- <li class="card">
+              <div class="card__content">
+                <h3 class="card__text">Resort 1</h3>
+              </div>
+            </li>
+
+            <li class="card">
+              <div class="card__content">
+                <h3 class="card__text">Resort 2</h3>
+              </div>
+            </li>
+
+            <li class="card">
+              <div class="card__content">
+                <h3 class="card__text">Resort 3</h3>
+              </div>
+            </li>
+
+            <li class="card">
+              <div class="card__content">
+                <h3 class="card__text">Resort 4</h3>
+              </div>
+            </li>
+
+            <li class="card">
+              <div class="card__content">
+                <h3 class="card__text">Resort 5</h3>
+              </div>
+            </li>
+
+            <li class="card">
+              <div class="card__content">
+                <h3 class="card__text">Resort 6</h3>
+              </div>
+            </li>
+
+            <li class="card">
+              <div class="card__content">
+                <h3 class="card__text">Resort 7</h3>
+              </div>
+            </li>
+
+            <li class="card">
+              <div class="card__content">
+                <h3 class="card__text">Resort 8</h3>
+              </div>
+            </li>
+
+            <li class="card">
+              <div class="card__content">
+                <h3 class="card__text">Resort 9</h3>
+              </div>
+            </li> -->
+          </ul>
+        </section>
+        <template id="card__template">
+            <li class="card">
+                  <img src="" alt="" class="card__image">
+                  <h2 class="card__title"></h2>
+                  <p class="card__description"></p>
+            </li>
+
+        </template>
+        <section class="routes" id="routes">
+          <div class="routes__content">
+            <h2 class="routes__title">The road to: Your <span class="routes__title-bold">ultimate</span> powder paradise</h2>
+            <div class="routes-info">
+            <p class="routes__text">
+              Our interactive map highlights the optimal route between 9 premier
+              ski resorts in New York. Visualize your perfect ski trip, easily
+              plan your journey, and discover the best way to explore the
+              breathtaking slopes of the Adirondacks. With our detailed route
+              planning, you can make the most of your winter adventure.
+            </p>
+          </div>
+        </section>
+
+        <section class="weather" id="weather">
+          <h2 class="weather__title">Real-time weather report</h2>
+
+          <p class="weather__description">
+            Get the latest weather forecasts here!
+          </p>
+        </section>
+
+        <section class="data" id="data">
+          <img class="data__image" src="" alt="" />
+          <div class="data__content">
+            <h2 class="data__title">Data</h2>
+            <p class="data__text">
+              Visualization (& explain the data to SE students)
+            </p>
+            <p class="data__text">
+              - What data do you have? How it was collected? - What did you do?
+              Was preprocessing required? - How to read your report/what do you
+              have in the report?
+            </p>
+            <p class="data__text">Final thoughts??</p>
+          </div>
+        </section>
+      </main>
+
+      <footer class="footer" id="">
+        <p>
+          &copy; 2024 Ayya, Z, Umberto, Jmik, Clarke
+        </p>
+      </footer>
+    </div>
+    <script src="./src/scripts/script.js"></script>
   </body>
 </html>
