@@ -21,9 +21,6 @@
   white-space: nowrap;
   overflow: hidden;
 }
-.card__description {
-  padding-bottom: 30px;
-  margin: 0;
   
 .card__description {
   margin: 10px 0 30px;
