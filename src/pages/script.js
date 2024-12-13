@@ -1,7 +1,7 @@
 const initialCards = [
   {
     name: "Whiteface Mountain",
-    link: "https://images.unsplash.com/photo-1606928374026-e1c367b17fb4?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8d2hpdGVmYWNlJTIwbW91bnRhaW58ZW58MHx8MHx8fDA%3D",
+    link: "https://images.unsplash.com/photo-1548873902-8b69fb85030a?q=80&w=2187&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     description:
       "Whiteface has the greatest vertical east of the Rockies. More vertical equals longer runs, less time on lifts, no crowds, and endless fun. Whiteface is big, with a diversity of terrain for every level, offering a significant degree of steeps, with access to the slides off the Summit Quad.",
   },
@@ -25,7 +25,7 @@ const initialCards = [
   },
   {
     name: "Windham Mountain",
-    link: "https://images.unsplash.com/photo-1606928374026-e1c367b17fb4?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8d2hpdGVmYWNlJTIwbW91bnRhaW58ZW58MHx8MHx8fDA%3D",
+    link: "https://images.unsplash.com/photo-1486684338211-1a7ced564b0d?q=80&w=2340&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     description:
       "Located in New York's Northern Catskills, approximately 150 miles north of New York City and 50 miles south of Albany, Windham Mountain resort is known as a family-friendly resort offering an authentic ski experience and spectacular views in the Northeast region.",
   },
@@ -43,7 +43,7 @@ const initialCards = [
   },
   {
     name: "HoliMont",
-    link: "https://images.unsplash.com/photo-1606928374026-e1c367b17fb4?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8d2hpdGVmYWNlJTIwbW91bnRhaW58ZW58MHx8MHx8fDA%3D",
+    link: "https://images.unsplash.com/photo-1610479201125-a5c7f17370a8?q=80&w=2340&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     description:
       "Located in Western New York, Holimont is the largest private ski resort in the US. With 700' of wall-to-wall snowmaking and state-of-the-art grooming, you're guaranteed to always have an excellent day on the slopes",
   },
