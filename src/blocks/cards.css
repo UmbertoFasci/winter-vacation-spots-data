@@ -24,10 +24,14 @@
 .card__description {
   padding-bottom: 30px;
   margin: 0;
+  
+.card__description {
+  margin: 10px 0 30px;
 }
+
 .card__image {
-  width: 450px;
-  height: 450px;
+  width: 430px;
+  height: 430px;
   object-fit: cover;
   border-radius: 10px;
   display: block;
@@ -43,13 +47,12 @@
 
 @media screen and (max-width: 627px) {
   .card {
-    padding-bottom: 20px;
+    padding: 0;
   }
+  
   .destinations__cards {
     grid-template-columns: repeat(auto-fit, 288px);
     row-gap: 20px;
-    column-gap: 20px;
-    flex-direction: column;
   }
 
   .card__image {
