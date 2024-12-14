@@ -1,25 +1,20 @@
 .destinations__cards {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  margin: 0;
-  padding: 0;
-  justify-content: center;
+  display:grid; 
+  grid-template-columns: repeat(3,1fr);
+  padding:0; 
 }
 .card {
-  max-width: 400px;
-  width: 100%;
-  list-style: none;
-  padding: 20px;
+ list-style-type: none;
 }
 .card__title {
   margin: 0;
-  max-width: 350px;
   font-size: 20px;
   line-height: 24px;
-  font-weight: 500;
+  font-weight: 700;
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
+  padding-bottom:20px; 
 }
   
 .card__description {
@@ -27,12 +22,12 @@
 }
 
 .card__image {
-  width: 430px;
-  height: 430px;
+  max-width: 350px;
+  max-height: 350px;
+
   object-fit: cover;
   border-radius: 10px;
-  display: block;
-  margin-bottom: 12px;
+  padding-bottom: 12px;
 }
 
 .destinations__title {
