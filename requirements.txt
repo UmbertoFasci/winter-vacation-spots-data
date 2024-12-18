@@ -1,3 +1,4 @@
+adjustText @ file:///home/conda/feedstock_root/build_artifacts/adjusttext_1730724971423/work
 anyio @ file:///home/conda/feedstock_root/build_artifacts/anyio_1733532585909/work
 argon2-cffi @ file:///home/conda/feedstock_root/build_artifacts/argon2-cffi_1733311059102/work
 argon2-cffi-bindings @ file:///home/conda/feedstock_root/build_artifacts/argon2-cffi-bindings_1725356572528/work
@@ -68,6 +69,7 @@ nbclient @ file:///home/conda/feedstock_root/build_artifacts/nbclient_1732882344
 nbconvert @ file:///home/conda/feedstock_root/build_artifacts/nbconvert-meta_1733405477194/work
 nbformat @ file:///home/conda/feedstock_root/build_artifacts/nbformat_1733402752141/work
 nest_asyncio @ file:///home/conda/feedstock_root/build_artifacts/nest-asyncio_1733325553580/work
+networkx @ file:///work/perseverance-python-buildout/croot/networkx_1728397011070/work
 notebook @ file:///home/conda/feedstock_root/build_artifacts/notebook_1733367085854/work
 notebook_shim @ file:///home/conda/feedstock_root/build_artifacts/notebook-shim_1733408315203/work
 numpy @ file:///home/conda/feedstock_root/build_artifacts/numpy_1733688217547/work/dist/numpy-2.2.0-cp313-cp313-linux_x86_64.whl#sha256=cbe7c73f8da28f6df8be696bed0ca894ffd6040155d3adc2a1144e8096a9aa07
@@ -106,6 +108,7 @@ rfc3339_validator @ file:///home/conda/feedstock_root/build_artifacts/rfc3339-va
 rfc3986-validator @ file:///home/conda/feedstock_root/build_artifacts/rfc3986-validator_1598024191506/work
 rpds-py @ file:///home/conda/feedstock_root/build_artifacts/rpds-py_1733366632265/work
 scipy @ file:///home/conda/feedstock_root/build_artifacts/scipy-split_1733620565237/work/dist/scipy-1.14.1-cp313-cp313-linux_x86_64.whl#sha256=74856325069bf3f70ecdbf237ccdbd889a72401a1e30c2ccecdda0f62d5ceebe
+seaborn @ file:///home/conda/feedstock_root/build_artifacts/seaborn-split_1733730015268/work
 Send2Trash @ file:///home/conda/feedstock_root/build_artifacts/send2trash_1733322040660/work
 setuptools==75.6.0
 shiboken6==6.8.1
